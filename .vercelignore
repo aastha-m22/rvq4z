@@ -1,0 +1,4 @@
+**/node_modules
+backend/tests
+backend/.pytest_cache
+docs

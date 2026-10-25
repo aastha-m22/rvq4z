@@ -1,0 +1,10 @@
+# docker compose up --build   ->  http://localhost:8000
+services:
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      # Optional overrides, see backend/app/config.py
+      - CALIBRATION_DAYS=28
+    restart: unless-stopped
