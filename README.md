@@ -5,7 +5,7 @@ A web app for a UK energy utility's day-ahead purchasing team. It answers two qu
 1. **What was the latest wind forecast when we had to decide?** For any delivery day and decision time, it shows the forecast that was actually available then, with an uncertainty range built only from information known at the time.
 2. **How far can we trust that forecast?** It measures accuracy against what was actually generated, by forecast horizon, time of day and output level.
 
-**Live app:** `<add your Vercel or Heroku URL here>`
+**Live app:** `https://rvq4z.vercel.app`
 
 **Video walkthrough:** `<add your unlisted YouTube link here>`
 
